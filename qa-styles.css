@@ -61,11 +61,11 @@ input[type=button], input[type=submit], .qa-page-link, .qa-page-next, .qa-page-p
 
 /* Headings */
 
-h1 {font-size:160%; margin:1em 0; margin-left:10px;}
-h2 {font-size:125%; padding-top:12px; clear:both; margin-left:10px;}
+h1 {color:white; font-size:160%; margin:1em 0; margin-left:10px;}
+h2 {color:white; font-size:125%; padding-top:12px; clear:both; margin-left:10px;}
 
-.qa-main > h1, .qa-main > h2  {
- color:white;
+.qa-q-view-main > h1, .qa-q-view-main > h2, .qa-a-list h1, .qa-a-list h2  {
+ color:black;
 }
 
 .qa-error {background:#fee; border:1px solid #c00; color:#c00; font-size:125%; padding:.5em; margin:1em 0; font-weight:bold;}
@@ -159,7 +159,7 @@ h2 {font-size:125%; padding-top:12px; clear:both; margin-left:10px;}
 
 /* Standard form (tall version) */
 
-.qa-form-tall-table {border-radius:10px; background-color:white; width:100% }
+.qa-form-tall-table {border-radius:10px; background-color:white;  margin: auto; width: 98%;  }
 .qa-form-tall-spacer {background:#E3F4FF; line-height:1px; padding:0; font-size:1px;}
 .qa-form-tall-ok {background:#efe; border:1px solid #090; color:#090; font-size:18px; padding:6px; text-align:center;}
 .qa-form-tall-label {color:#253845; padding:12px 8px 2px 8px; font-size:75%; font-weight:bold;}
@@ -178,7 +178,7 @@ h2 {font-size:125%; padding-top:12px; clear:both; margin-left:10px;}
 
 /* Standard form (wide version) */
 
-.qa-form-wide-table {border-radius:10px; background-color:white; width:100%}
+.qa-form-wide-table {border-radius:10px; background-color:white;  margin: auto; width: 98%; }
 .qa-form-wide-spacer {background:#E3F4FF; line-height:1px; padding:0; font-size:1px;}
 .qa-form-wide-ok {background:#efe; border:1px solid #090; color:#090; font-size:125%; padding:6px; text-align:center;}
 .qa-form-wide-label {color:#253845; padding:6px 10px; font-size:86%; font-weight:bold; white-space: nowrap;}
@@ -283,7 +283,7 @@ h2 {font-size:125%; padding-top:12px; clear:both; margin-left:10px;}
 	.qa-top-tags-label .qa-tag-link {font-weight:normal;}
 .qa-top-tags-spacer {padding:0 4px;}
 
-.qa-top-users-table {float:left;padding: 10px;  border-radius:10px; background-color:white; width:100%; margin-bottom:1em;}
+.qa-top-users-table {float:left;padding: 10px;  border-radius:10px; background-color:white; margin: auto; width: 98%; margin-bottom:1em;}
 .qa-top-users-label {padding:3px; text-align:left;}
 .qa-top-users-score {color:#414944; text-align:right; padding:3px;}
 .qa-top-users-spacer {padding:0 4px;}
