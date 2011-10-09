@@ -255,7 +255,7 @@ h2 {font-size:125%; padding-top:12px; clear:both; margin-left:10px;}
 	.qa-voted-down-button {background-position:0 0 !important; color:#f3cb7f;}
 	.qa-voted-down-hover,.qa-voted-down-button:hover {background-position:0 0 !important; color:#f3cb7f;}
 
-.qa-vote-count {float:left; text-align:center;padding-top: 5px;}
+.qa-vote-count {float:left; text-align:center;padding-top: 6px;}
 
 .qa-netvote-count {width:60px; display:block;}
 .qa-netvote-count-data {padding-top:1px; font-size:150%; font-weight:bold; display:block;}
