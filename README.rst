@@ -24,7 +24,7 @@ Installation
 
 #. navigate to your site, go to **Admin -> General** on your q2a install and select Mobile as the theme, then click **Save Changes**.
 
-Note: to recognize mobile browsers and automatically switch to this theme, it is recommended to install the `q2a-theme-switcher plugin`_ and enable the mobile theme option.
+Note: to have your site recognize mobile browsers and automatically switch to this theme, it is recommended to install the `q2a-theme-switcher plugin`_ and enable the mobile theme option.
 
 .. _Question2Answer: http://www.question2answer.org/install.php
 .. _git: http://git-scm.com/

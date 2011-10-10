@@ -288,14 +288,12 @@ h2 {color:white; font-size:125%; padding-top:12px; clear:both; margin-left:10px;
 .qa-top-users-score {color:#414944; text-align:right; padding:3px;}
 .qa-top-users-spacer {padding:0 4px;}
 
-.qa-browse-cat-list {list-style:none; padding:0; margin:0; margin-left:2.5em;}
+.qa-browse-cat-list {padding: 10px;  border-radius:10px; background-color:white; margin: auto; width: 98%; list-style:none; }
 .qa-browse-cat-list-1 {font-size:125%;}
 .qa-browse-cat-list-2 {font-size:110%;}
 .qa-browse-cat-list-3 {font-size:100%;}
 .qa-browse-cat-list-4 {font-size:70%;}
 .qa-browse-cat-item {margin:0.5em 0; font-weight:bold; color:#000;}
-.qa-browse-cat-closed {list-style:disc;}
-.qa-browse-cat-open {list-style:circle;}
 .qa-browse-cat-link {font-weight:bold; text-decoration:none; color:#000;}
 .qa-browse-cat-note {font-weight:normal; font-size:70%; color:#444;}
 	.qa-browse-cat-note a {color:#473A9F;}

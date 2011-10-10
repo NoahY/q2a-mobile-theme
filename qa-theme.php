@@ -9,6 +9,11 @@
 
 			qa_html_theme_base::doctype();
 		}
+		function head_custom() {
+			$this->output('<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />');
+			qa_html_theme_base::head_custom();
+		}
+		
 		function sidepanel()
 		{
 
