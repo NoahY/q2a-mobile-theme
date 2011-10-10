@@ -156,6 +156,11 @@ h2 {color:white; font-size:125%; padding-top:12px; clear:both; margin-left:10px;
 .qa-page-selected { background:url("bg-body-blue-bright.png");}
 .qa-page-ellipsis {color:#666;}
 
+/* User profile links */
+
+.qa-useract-page-links {font-size:110%; padding:0.5em 0; text-align:left; clear:both; color:white;margin-bottom: 30px;}
+.qa-useract-page-links a {border:1px solid #1f2e2b; color:#fff; padding:3px 6px; border-radius:6px; background:url("bg-body-blue.png"); margin:0 2px;}
+
 /* Standard form (tall version) */
 
 .qa-form-tall-table {border-radius:10px; background-color:white;  margin: auto; width: 98%;  }
@@ -223,7 +228,7 @@ h2 {color:white; font-size:125%; padding-top:12px; clear:both; margin-left:10px;
 .qa-q-item-tag-list {list-style:none; margin:0; padding:0;}
 .qa-q-item-tag-item {display:inline;}
 
-.qa-suggest-next {font-size:110%; padding:0.5em 0; text-align:left; clear:both; color:white;}
+.qa-suggest-next {font-size:110%; padding:0.5em 0; text-align:left; clear:both; color:white;margin-bottom: 30px;}
 .qa-suggest-next a {border:1px solid #1f2e2b; color:#fff; padding:3px 6px; border-radius:6px; background:url("bg-body-blue.png"); margin:0 2px;}
 
 /* Votes */
@@ -385,7 +390,7 @@ h2 {color:white; font-size:125%; padding-top:12px; clear:both; margin-left:10px;
 
 .qa-nav-footer-list {float:left; list-style-type:none; padding:0; margin:0;}
 .qa-nav-footer-item {float:left; margin-right:12px;}
-.qa-nav-footer-link {color:#FFF; text-decoration:underline !important;}
+.qa-nav-footer-link {font-size:150%; line-height:185%; color:#FFF; text-decoration:underline !important;}
 	.qa-nav-footer-link:hover {color:#f5d495;}
 .qa-attribution {float:right;margin-top: 8px;}
 	.qa-attribution a {color:#FFF; text-decoration:underline; !important;}

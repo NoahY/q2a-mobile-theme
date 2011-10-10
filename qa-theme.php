@@ -3,7 +3,9 @@
 	{
 		function doctype()
 		{
+			
 			$this->content['navigation']['footer']['feedback']['label'] = '<div class="feedback-image"></div>';
+			
 			$this->content['search']['button_label'] = '';
 			$this->content['logo'] = '<A HREF="../" CLASS="qa-logo-link">'.qa_opt('site_title').'</A>';
 
