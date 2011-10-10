@@ -25,7 +25,7 @@
 
 
 /* General page layout */
-
+html, body {height:100%;}
 body {background: url("bg-body-blue.png") repeat-x scroll 0 0 #131516; margin:0; padding:0; text-align:center;}
 body,td,input,textarea {font-size:100%; font-family:Verdana, Arial, Helvetica, sans-serif;}
 a:link,a:active,a:visited {text-decoration:none;}
@@ -44,8 +44,7 @@ input[type=button], input[type=submit], .qa-page-link, .qa-page-next, .qa-page-p
 	border-radius:6px; 
 	background:url("bg-body-blue.png");
 }
-
-.qa-body-wrapper {margin:0 auto; margin-top:-1px; text-align:left;}
+.qa-body-wrapper { min-height:100%; display:inline-block; position:relative; width: 100%; margin:0; text-align:left;}
 
 /* Clearing classes */
 
@@ -81,7 +80,7 @@ h2 {color:white; font-size:125%; padding-top:12px; clear:both; margin-left:10px;
 .qa-feed-link {font-size:70%; color:#666;}
 .qa-main {float:left; margin-bottom:2em; width:100%; clear:left; overflow:hidden;}
 .qa-main-hidden h1 {color:#999;}
-.qa-footer {clear:both; background: url("bg-body-blue.png") repeat-x scroll 0 0 #131516; color:#FFF; font-size:70%; padding:4px 12px 2px;}
+.qa-footer {position:absolute; bottom:0; left:0; right:0; background: url("bg-body-blue.png") repeat-x scroll 0 0 #131516; color:#FFF; font-size:70%; padding:4px 12px 2px;}
 * html .qa-footer {padding-top:6px;} /* IE6 */
 
 .feedback-image {
